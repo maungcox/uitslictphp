@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bus</title>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="js/bootstrap.min.js">
+<link rel="stylesheet" href="js/isotope.pkgd.min.js">
+<link rel="stylesheet" href="css/portfoliostyle.css">
+<link rel="stylesheet" href="css/datepicker.css">
+<script src="js/bootstrap-datepicker.js"></script>
+<script>
+$(function(){
+$('.datepicker').datepicker();
+});
+</script>
+</head>
+
+<body>
+<header>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="index.html"><span>O</span>nline Bus Ticket</a> </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>         
+          <li><a href="Bus.html">Bus</a></li>         
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#"><i class="fa fa-search"></i></a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse --> 
+    </div>
+  </nav>
+</header>
+<div class="header-bottom">
+  <div class="container">
+      Username & Email : <input type="text" name="txtbox">
+      Password : <input type="password" name="password">
+      <input type="button" value="Login">
+    <div class="logotext pull-right">
+      <h2></h2>
+    </div>
+  </div>
+</div>
+<!--<section>
+    <h3>Bus Ticket</h3>
+    <h4>Form<h4> </br>
+            <input type="text" name="txtbox2">
+  
+</section>-->
+<div class="srch_container">
+        <div class="block block-search col-md-12" style="position: static; ">
+            <div id="dialog_container_block" title="Message Dialog"></div>
+            <form name="bussearch" id="bussearch" onsubmit="return validateBusForm(this)">
+                <ul class="list-inline">
+					<div class="form-group" style="font-size:21px;color:#000;">
+						Lowest prices guaranteed on Bus Tickets 
+					</div>	
+                    <div class="form-group">
+                        <label for="dest_from">From</label>
+                        <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" class="form-control jqchars  ui-autocomplete-input" id="dest_from" name="dest_from" placeholder="Enter City" maxlength="15" value="" autocomplete="off">
+                    </div> 
+                    <div class="form-group">
+                        <label for="dest_to">To</label>
+                        <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" class="form-control jqchars ui-autocomplete-input" id="dest_to" name="dest_to" placeholder="Enter City" maxlength="15" value="" autocomplete="off">
+                    </div> 
+                    <div class="row">
+                        <div class="col-md-6">                             
+                            <div class="form-group">
+                                <h4>Date of Journey<h4>
+                                <input class="datepicker" type="text" name="dor">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <h4>Date of Return<span>(Optional)</span></h4>
+                                <input type="text" class="datepicker" name="date">
+                            </div>
+                        </div>                        
+                    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<div class="upbutton"> <a href="#"><i class="fa fa-angle-up pull-right"></i></a> </div>
+<section class="quete">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8 text-center">
+        <h2>Member</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <div class="carousel slide" data-ride="carousel" id="quote-carousel"> 
+          <!-- Bottom Carousel Indicators --> 
+          
+          <!-- Carousel Slides / Quotes -->
+          <div class="carousel-inner"> 
+            
+            <!-- Quote 1 -->
+            
+            <!-- Quote 2 -->
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center"> <img class="img-circle" src="img/ripon.jpg" style="width: 100px;height:100px;"> </div>
+                  <div class="col-sm-9">
+                    <p>Hi I am RIPON AHMED.This is our online ticket site.if you face any problem please contact me.</p>
+                    <small>Ripon Ahmed </small> </div>
+                </div>
+              </blockquote>
+            </div>
+            <!-- Quote 3 -->
+                 
+          <!-- Carousel Buttons Next/Prev --> 
+          <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a> <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Footer Area Starts-->
+<footer class="footerArea">
+  <div class="container">
+    <div class="row footerup">
+      <div class="col-md-3 col-xs-12 col-sm-6">
+        <div class="seipArea">
+          <h3>Get in touch with us</h3>
+          <h2><span>S</span>EIP</h2>
+          <address>
+          Mordern building suite V124, AB 01 Someplace 16425 earth
+          </address>
+          <ul>
+            <li><a href="tel:(123)456-7890-(123)555-7891">(123)456-7890-(123)555-7891</a></li>
+            <li><a href="mailto:email@domainname.com">email@domainname.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-xs-12 col-sm-6">
+        <div class="pageArea">
+          <h3>Pages</h3>
+          <ul>
+            <li><a href="#">Page release</a></li>
+            <li><a href="#">Terms and condition</a></li>
+            <li><a href="#">Privacy  policy</a></li>
+            <li><a href="#">Career center</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-xs-12 col-sm-6">
+        <div class="latestPost">
+          <h3>Latest Post</h3>
+          <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Curabitur </p>
+          <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Curabitur </p>
+          <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Curabitur </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-xs-12 col-sm-6">
+        <div class="flickerImage">
+          <h3>Flickr photostream</h3>
+          <div class="row upperImg">
+            <div class="col-xs-3"> <img width="100%" src="img/f1.jpg" alt="flicker" /> </div>
+            <div class="col-xs-3"> <img width="100%" src="img/f2.jpg" alt="flicker" /> </div>
+            <div class="col-xs-3"> <img width="100%" src="img/f3.jpg" alt="flicker" /> </div>
+            <div class="col-xs-3"> <img width="100%" src="img/f4.jpg" alt="flicker" /> </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-3"> <img width="100%" src="img/f5.jpg" alt="flicker" /> </div>
+            <div class="col-xs-3"> <img width="100%" src="img/f6.jpg" alt="flicker" /> </div>
+            <div class="col-xs-3"> <img width="100%" src="img/f7.jpg" alt="flicker" /> </div>
+            <div class="col-xs-3"> <img width="100%" src="img/f8.jpg" alt="flicker" /> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-xs-6 copyRight">
+        <p>&copy;SEIP 2016 all right reserve by Bootstraptaste</p>
+      </div>
+      <div class="col-md-6 col-xs-6 iconRight"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-pinterest"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> </div>
+    </div>
+  </div>
+</footer>
+<!--Footer Area Ends--> 
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/isotope.pkgd.min.js"></script> 
+<script>
+    	// external js: isotope.pkgd.js
+
+$( document ).ready( function() {
+  // init Isotope
+  var $container = $('.isotope').isotope({
+    itemSelector: '.element-item',
+    layoutMode: 'fitRows',
+    getSortData: {
+      name: '.name',
+      symbol: '.symbol',
+      number: '.number parseInt',
+      category: '[data-category]',
+      weight: function( itemElem ) {
+        var weight = $( itemElem ).find('.weight').text();
+        return parseFloat( weight.replace( /[\(\)]/g, '') );
+      }
+    }
+  });
+
+  // filter functions
+  var filterFns = {
+    // show if number is greater than 50
+    numberGreaterThan50: function() {
+      var number = $(this).find('.number').text();
+      return parseInt( number, 10 ) > 50;
+    },
+    // show if name ends with -ium
+    ium: function() {
+      var name = $(this).find('.name').text();
+      return name.match( /ium$/ );
+    }
+  };
+
+  // bind filter button click
+  $('#filters').on( 'click', 'button', function() {
+    var filterValue = $( this ).attr('data-filter');
+    // use filterFn if matches value
+    filterValue = filterFns[ filterValue ] || filterValue;
+    $container.isotope({ filter: filterValue });
+  });
+
+  // bind sort button click
+  $('#sorts').on( 'click', 'button', function() {
+    var sortByValue = $(this).attr('data-sort-by');
+    $container.isotope({ sortBy: sortByValue });
+  });
+  
+  // change is-checked class on buttons
+  $('.button-group').each( function( i, buttonGroup ) {
+    var $buttonGroup = $( buttonGroup );
+    $buttonGroup.on( 'click', 'button', function() {
+      $buttonGroup.find('.is-checked').removeClass('is-checked');
+      $( this ).addClass('is-checked');
+    });
+  });
+  
+});
+
+    </script>
+</body>
+</html>
