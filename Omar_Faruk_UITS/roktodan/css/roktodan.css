@@ -1,0 +1,68 @@
+/**
+ * Loading animation like the one seen on http://www.freeger.com/projects/contextad/ with CSS
+ * Caveat: Not DRY. The content needs to be repeated in a data- attribute (or directly in the CSS).
+ */
+
+body {
+	background: #DDDDDD;
+	min-height: 100%;
+	
+}
+.roktodan
+{
+	
+	
+	
+	
+}
+
+#index h1{
+	color:#DDDDDD;
+	
+	font-weight: 900;
+	font-size: 3em;
+
+	
+}
+h1 {
+	/* position: absolute; */
+	
+	text-align: center;
+	
+	color: hsla(0,0%,100%,1);
+	font: 900 800% Baskerville, 'Palatino Linotype', Palatino, serif;	
+}
+
+@keyframes loading {
+	from { max-width: 0; }
+}
+
+h1:before {
+	content: attr(data-content);
+	position: absolute;
+	overflow: hidden;
+	max-width: 8em;
+	color: red;
+	animation: loading 5s linear;
+}
+@media all and (max-width: 400px) and (min-width: 300px) {
+  .roktodan{
+	  margin-top:50%;
+  }
+}
+@media all and (max-width: 1400px) and (min-width: 700px) {
+ .roktodan{
+	 max-height:600px;
+	  margin-top:20%;
+	  font-size: 3em;
+  }
+}
+@media all and (max-width: 669px) and (min-width: 401px) {
+ .roktodan{
+	max-height:600px;
+	margin-top:40%;
+	
+  }
+}
+
+

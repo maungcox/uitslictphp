@@ -1,0 +1,204 @@
+
+@font-face {
+    font-family: 'texgyreadventorregular';
+    src: url('../fonts/texgyreadventor-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+     font-family: 'open_sansregular';
+      src:url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype');
+}
+body {
+	font-family: 'open_sansregular';
+	background:#FFFFFF;
+	font-size: 100%;
+}
+/* start header */
+.header_bg{
+	border-top:6px groove #3b3b3b;
+	background: #ffffff;
+}
+#logo-img{
+	width:40px;
+	height:40px;
+	margin-top:-10px;
+}
+
+.header{
+	padding:0;
+	
+}
+.logo h1 a{
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #3B3B3B;
+	text-decoration: none;
+	font-family: 'texgyreadventorregular';
+}
+
+
+/* menu */
+.h_menu{
+	padding: 0;
+	background: #3B3B3B;
+}
+.navbar {
+	position: relative;
+	min-height: 60px;
+	margin-bottom: 0px;
+	border: none;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	background: #3B3B3B;
+	color: #ffffff;
+	padding: 0;
+}
+.navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover{
+	background: #FF5454;
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.nav > li {
+	border-right: 1px solid rgb(39, 37, 37);
+}
+.nav > li > a {
+	font-size: 13px;
+	padding: 20px 30px;
+	text-transform: uppercase;
+}
+
+/* start soc_icons */
+.soc_icons {
+
+}
+.soc_icons ul{
+	margin-bottom: 0;
+}
+.soc_icons ul li{
+	display:inline-block;
+	border-left: 1px solid rgb(39, 37, 37);
+	
+}
+.soc_icons ul li a{
+	color:#ffffff;
+	font-size: 18px;
+	display: block;
+	line-height: 60px;
+	width: 80px;
+	height: 60px;
+	text-decoration:none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.soc_icons ul li a:hover{
+	background: #FF5454;
+}
+
+/* start search */
+.search{
+	padding:5% 0;
+	background: #ffffff;
+}
+
+/* start user */
+.user{
+	background: #bdc3c7;
+}
+
+/* start team */
+.team{
+	background: #bdc3c7;
+}
+.team p{
+	color: #3b3b3b;
+	font-size: 14px;
+	line-height: 1.8em;
+}
+/* start footer */
+
+.main-footer{
+	padding: 2%;
+	background: #fff;
+}
+.copy p{
+	color: #3b3b3b;
+	font-size: 14px;
+	line-height: 1.8em;
+}
+.copy p a{
+	color:#ff5454;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.copy p a:hover{
+	color: #3b3b3b;
+	text-decoration: none;
+}
+
+/***** Media Quries *****/
+
+@media only screen and (max-width: 768px) {
+	.logo{
+		text-align:center;
+	}
+	
+	.h_menu {
+		position: relative;
+	}	
+	.soc_icons {
+		position: absolute;
+		top: 0px;
+		background: #3b3b3b;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: #FFF;
+	}
+	.navbar {
+		min-height: 51px;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: #3b3b3b;
+	}
+	.navbar-default {
+		background-color: #3b3b3b;
+		border:none;
+	}
+	.navbar-nav {
+		margin: 0px 0px;
+	}
+	.nav > li > a {
+		padding: 20px 15px;
+	}
+	.soc_icons ul li a {
+		font-size: 20px;
+		line-height: 50px;
+		width: 80px;
+		height: 51px;
+	}
+	
+
+	
+}
+
+@media only screen and (max-width: 320px) {
+
+	.soc_icons ul li a {
+		font-size: 20px;
+		width: 120px;
+	}
+	
+
+	
+}
